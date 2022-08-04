@@ -1,0 +1,6 @@
+{
+  "yes-sir": "org.tadalabs.orchestra.internal.ops.sir.YesSirFunction",
+  "no-sir": "org.tadalabs.orchestra.internal.ops.sir.NoSirFunction",
+  "failing": "org.tadalabs.orchestra.internal.ops.failure.FailingFunction",
+  "input-counter": "org.tadalabs.orchestra.internal.ops.counter.InputCounterFunction"
+}

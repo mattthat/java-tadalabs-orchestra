@@ -1,0 +1,84 @@
+{
+  "Records": [
+    {
+      "messageId": "059f36b4-87a3-44ab-83d2-661975830a7d",
+      "receiptHandle": "AQEBwJnKyrHigUMZj6rYigCgxlaS3SLy0a...",
+      "body": "{\n  \"type\": \"lambda\",\n  \"state\": \"initiating\",\n  \"operation\": \"yes-sir\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082649183",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082649185"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    },
+    {
+      "messageId": "3e1424d4-f796-459a-8184-9c92662be6da",
+      "receiptHandle": "AQEBzWwaftRI0KuVm4tP+/7q1rGgNqicHq...",
+      "body": "{\n  \"type\": \"lambda\",\n  \"state\": \"initiating\",\n  \"operation\": \"no-sir\"\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082650636",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082650649"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    },
+    {
+      "messageId": "4e1424d4-f796-459a-8184-9c92662be6da",
+      "receiptHandle": "AQEBzWwaftRI0KuVm4tP+/7q1rGgNqicHq...",
+      "body": "{\n  \"type\": \"lambda\",\n  \"state\": \"initiating\",\n  \"operation\": \"input-counter\",\n  \"input\": [{\n    \"type\": \"Integer\",\n    \"message\": 40\n  }]\n}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082650636",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082650649"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    },
+    {
+      "messageId": "7e1461c4-f796-459g-3181-9c92592fe6da",
+      "receiptHandle": "AQEBzWwaftRI0KuVm4tP+/7q1rGgNqicHq...",
+      "body": "invalid",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082650636",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082650649"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    },
+    {
+      "messageId": "1a4591b4-d341-312a-3181-5g92592fh6dy",
+      "receiptHandle": "AQEBzWwaftRI0KuVm4tP+/7q1rGgNqicHq...",
+      "body": "{\n  \"type\": \"lambda\",\n  \"state\": \"initiating\",\n  \"operation\": \"failing\" }",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082650636",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082650649"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    }
+  ]
+}
